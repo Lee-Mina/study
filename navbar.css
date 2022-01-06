@@ -1,0 +1,43 @@
+* {
+  text-decoration: none;
+  list-style: none;
+  font-family: sans-serif;
+}
+a:visited {
+  color: white;
+}
+a:link {
+  color: white;
+}
+body {
+  margin: 0px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  align-items: center;
+  background: rgb(38, 38, 46);
+  color: white;
+  width: 100%;
+}
+
+.social {
+  display: flex;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-left: 0;
+}
+
+.content li {
+  padding: 8px 12px;
+}
+.logo {
+  display: flex;
+}
+@media screen and(max-with: 48rem) {
+}
